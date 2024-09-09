@@ -63,3 +63,21 @@ console.log((Object.entries(tinderUser))); //Object.entries
 console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
 
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Suraj"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: Instructor} = course //destructure
+console.log(Instructor);
+
+// APIs
+// {
+//     "name": "Suraj",
+//     "coursename": "js in hindi",
+//     "price": "freee"
+// }
+
